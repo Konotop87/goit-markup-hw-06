@@ -757,8 +757,7 @@ img {
   color: var(--text-color);
 }
 
-.register-form-input,
-.register-form-massege {
+.register-form-input {
   width: 100%;
   padding: 11px 12px;
   padding-left: 42px;
@@ -785,6 +784,9 @@ img {
 }
 
 .register-form-massege {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
   padding: 12px 16px;
   outline: none;
   resize: none;
